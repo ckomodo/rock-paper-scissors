@@ -1,3 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: salmon;
+}
+
+section{
+    height: 100vh;
+    background-color: sandybrown;
+    font-family: sans-serif;
+}
+
+.score{
+    color: rgb(red, rgb(149, 223, 149), blue);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h2{
+    font-size: 30px;
+}
+
+.score p{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.intro{
+    color: rgb(red, rgb(149, 223, 149), blue);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.intro h1{
+    font-size: 50px;
+
+}
+
+.intro button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(red, rgb(149, 223, 149), blue);
+    font-size: 20px;
+    background-color: rgb(67, 107, 153);
+    border-radius: 3px; 
+}   
+
+.match{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%. -50%);
+
+}
+
+.winner{
+    color: salmon;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hands, options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
